@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Katlon_demo_Application - Copy (1),Chrome 119.0.0.0,,,2023-11-22 14:28:55,2023-11-22 14:29:44,48.416s,PASSED
+,,,,,,,
+Test Cases/JPetStore/My_1st_TestCase_Msk,Chrome 119.0.0.0,,,2023-11-22 14:28:56,2023-11-22 14:29:20,23.985s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 14:28:56,2023-11-22 14:28:59,2.512s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-22 14:28:59,2023-11-22 14:29:02,3.531s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish""))",Chrome 119.0.0.0,,,2023-11-22 14:29:02,2023-11-22 14:29:03,0.990s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 119.0.0.0,,,2023-11-22 14:29:03,2023-11-22 14:29:04,0.972s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart""))",Chrome 119.0.0.0,,,2023-11-22 14:29:04,2023-11-22 14:29:05,1.404s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1""), ""2"")",Chrome 119.0.0.0,,,2023-11-22 14:29:05,2023-11-22 14:29:06,0.803s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart""))",Chrome 119.0.0.0,,,2023-11-22 14:29:06,2023-11-22 14:29:08,1.279s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 119.0.0.0,,,2023-11-22 14:29:08,2023-11-22 14:29:09,1.386s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 14:29:09,2023-11-22 14:29:11,2.466s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 14:29:11,2023-11-22 14:29:12,0.778s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79""))",Chrome 119.0.0.0,,,2023-11-22 14:29:12,2023-11-22 14:29:13,0.953s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip""), ""12356"")",Chrome 119.0.0.0,,,2023-11-22 14:29:13,2023-11-22 14:29:14,0.673s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 14:29:14,2023-11-22 14:29:15,0.868s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 14:29:15,2023-11-22 14:29:16,1.312s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip""), ""1256"")",Chrome 119.0.0.0,,,2023-11-22 14:29:16,2023-11-22 14:29:17,0.784s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 14:29:17,2023-11-22 14:29:18,0.858s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm""))",Chrome 119.0.0.0,,,2023-11-22 14:29:18,2023-11-22 14:29:19,1.376s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 14:29:19,2023-11-22 14:29:20,0.645s,PASSED
+,,,,,,,
+Test Cases/katlon_demo_/katlon_demo_application,Chrome 119.0.0.0,,,2023-11-22 14:29:20,2023-11-22 14:29:32,12.395s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 14:29:20,2023-11-22 14:29:21,1.257s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-22 14:29:21,2023-11-22 14:29:24,2.964s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 119.0.0.0,,,2023-11-22 14:29:24,2023-11-22 14:29:25,0.739s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 119.0.0.0,,,2023-11-22 14:29:25,2023-11-22 14:29:26,0.465s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-22 14:29:26,2023-11-22 14:29:26,0.689s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 119.0.0.0,,,2023-11-22 14:29:26,2023-11-22 14:29:27,0.359s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2023-11-22 14:29:27,2023-11-22 14:29:27,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 14:29:27,2023-11-22 14:29:28,0.990s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 119.0.0.0,,,2023-11-22 14:29:28,2023-11-22 14:29:29,0.595s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_23""))",Chrome 119.0.0.0,,,2023-11-22 14:29:29,2023-11-22 14:29:29,0.484s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""megha"")",Chrome 119.0.0.0,,,2023-11-22 14:29:29,2023-11-22 14:29:30,0.796s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-22 14:29:30,2023-11-22 14:29:31,0.742s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 119.0.0.0,,,2023-11-22 14:29:31,2023-11-22 14:29:31,0.764s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 14:29:31,2023-11-22 14:29:32,0.655s,PASSED
+,,,,,,,
+Test Cases/katlon_demo_/katlon_demo_application1,Chrome 119.0.0.0,,,2023-11-22 14:29:32,2023-11-22 14:29:44,11.742s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 14:29:32,2023-11-22 14:29:33,1.139s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-22 14:29:33,2023-11-22 14:29:36,2.900s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 119.0.0.0,,,2023-11-22 14:29:36,2023-11-22 14:29:37,0.722s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 119.0.0.0,,,2023-11-22 14:29:37,2023-11-22 14:29:38,0.471s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-22 14:29:38,2023-11-22 14:29:38,0.695s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 119.0.0.0,,,2023-11-22 14:29:38,2023-11-22 14:29:39,0.355s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2023-11-22 14:29:39,2023-11-22 14:29:39,0.395s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 14:29:39,2023-11-22 14:29:40,1.104s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""inceare"")",Chrome 119.0.0.0,,,2023-11-22 14:29:40,2023-11-22 14:29:41,0.757s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-22 14:29:41,2023-11-22 14:29:41,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_16""))",Chrome 119.0.0.0,,,2023-11-22 14:29:41,2023-11-22 14:29:42,0.477s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-22 14:29:42,2023-11-22 14:29:42,0.726s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 119.0.0.0,,,2023-11-22 14:29:42,2023-11-22 14:29:43,0.780s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 14:29:43,2023-11-22 14:29:44,0.628s,PASSED

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My_2nd_TestSuite" time="268.165" tests="2" failures="0" errors="0">
+   <testsuite name="My_2nd_TestSuite" tests="2" failures="0" errors="0" time="268.165" skipped="0" timestamp="2023-11-22 13:26:06" hostname="ADMIN - MeghasriK" id="Test Suites/My_2nd_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231122_132236\\My_2nd_TestSuite\\20231122_132241"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231122_132236\\My_2nd_TestSuite\\20231122_132241\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231122_132236\\My_2nd_TestSuite\\20231122_132241\\1700639945904.png"/>
+         <property name="hostName" value="ADMIN - MeghasriK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="c5ecc5a81061d885b371ddffe0b7d097"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/JPetStore/My_2nd_Testcase_Msk" time="64.368" classname="Test Cases/JPetStore/My_2nd_Testcase_Msk" status="PASSED">
+         <system-out><![CDATA[2023-11-22 13:29:06 - [TEST_CASE][PASSED] - Test Cases/JPetStore/My_2nd_Testcase_Msk: Test Cases/JPetStore/My_2nd_Testcase_Msk
+
+2023-11-22 13:29:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-22 13:29:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-22 13:29:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-22 13:29:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-22 13:29:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-22 13:29:08 - [TEST_STEP][PASSED] - navigateToUrl("https://jpetstore.aspectran.com/catalog/"): Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-22 13:29:14 - [MESSAGE][PASSED] - Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-22 13:29:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs' is clicked on
+
+2023-11-22 13:29:15 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs' is clicked on
+
+2023-11-22 13:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01' is clicked on
+
+2023-11-22 13:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01' is clicked on
+
+2023-11-22 13:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01' is clicked on
+
+2023-11-22 13:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01' is clicked on
+
+2023-11-22 13:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart' is clicked on
+
+2023-11-22 13:29:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='Catalog']/table/tbody/tr[2]/td[5]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-22 13:29:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart'. Try using Self-healing.
+
+2023-11-22 13:29:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart' was broken. Propose an alternative one: '//a[contains(text(),'Add to Cart')]'.
+
+2023-11-22 13:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart' is clicked on
+
+2023-11-22 13:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart' is clicked on
+
+2023-11-22 13:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart' is clicked on
+
+2023-11-22 13:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout' is clicked on
+
+2023-11-22 13:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout' is clicked on
+
+2023-11-22 13:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login' is clicked on
+
+2023-11-22 13:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login' is clicked on
+
+2023-11-22 13:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip"), "1566"): Text '1566' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+
+2023-11-22 13:30:07 - [MESSAGE][PASSED] - Text '1566' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+
+2023-11-22 13:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-22 13:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Confirm")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Confirm' is clicked on
+
+2023-11-22 13:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Confirm' is clicked on
+
+2023-11-22 13:30:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-22 13:30:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JPetStore/My_1st_TestCase_Msk" time="24.173" classname="Test Cases/JPetStore/My_1st_TestCase_Msk" status="PASSED">
+         <system-out><![CDATA[2023-11-22 13:30:10 - [TEST_CASE][PASSED] - Test Cases/JPetStore/My_1st_TestCase_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk
+
+2023-11-22 13:30:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-22 13:30:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-22 13:30:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-22 13:30:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-22 13:30:11 - [TEST_STEP][PASSED] - navigateToUrl("https://jpetstore.aspectran.com/catalog/"): Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-22 13:30:15 - [MESSAGE][PASSED] - Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-22 13:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-22 13:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-22 13:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-22 13:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-22 13:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-22 13:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-22 13:30:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1"), "2"): Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-22 13:30:19 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-22 13:30:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-22 13:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-22 13:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-22 13:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-22 13:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-22 13:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-22 13:30:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' is clicked on
+
+2023-11-22 13:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' is clicked on
+
+2023-11-22 13:30:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip"), "12356"): Text '12356' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip'
+
+2023-11-22 13:30:27 - [MESSAGE][PASSED] - Text '12356' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip'
+
+2023-11-22 13:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip"), "1256"): Text '1256' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip'
+
+2023-11-22 13:30:31 - [MESSAGE][PASSED] - Text '1256' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip'
+
+2023-11-22 13:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 13:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm' is clicked on
+
+2023-11-22 13:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm' is clicked on
+
+2023-11-22 13:30:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-22 13:30:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-22 13:26:06 - [TEST_SUITE][FAILED] - My_2nd_TestSuite: Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700639561011.run(TempTestSuite1700639561011.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' located by '(//button[@type='submit'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-11-22 13:26:06 - [TEST_SUITE][FAILED] - My_2nd_TestSuite: Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700639561011.run(TempTestSuite1700639561011.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' located by '(//button[@type='submit'])[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

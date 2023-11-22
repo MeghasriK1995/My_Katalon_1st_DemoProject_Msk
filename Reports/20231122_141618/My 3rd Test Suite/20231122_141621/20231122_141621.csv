@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My 3rd Test Suite,Chrome 119.0.0.0,,,2023-11-22 14:17:14,2023-11-22 14:17:29,14.697s,FAILED
+,,,,,,,
+Test Cases/JPetStore/My 3rd Test Case,Chrome 119.0.0.0,,,2023-11-22 14:17:26,2023-11-22 14:17:29,2.952s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 14:17:26,2023-11-22 14:17:28,1.726s,PASSED
+"navigateToUrl(""https://www.advantageonlineshopping.com/#/"")",Chrome 119.0.0.0,,,2023-11-22 14:17:28,2023-11-22 14:17:29,1.025s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 119.0.0.0,,,2023-11-22 14:17:29,2023-11-22 14:17:29,0.198s,FAILED

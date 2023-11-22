@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My_1st_Testsuite_Msk,Chrome 119.0.0.0,,,2023-11-22 14:16:33,2023-11-22 14:16:48,15.441s,FAILED
+,,,,,,,
+Test Cases/JPetStore/My_1st_TestCase_Msk,Chrome 119.0.0.0,,,2023-11-22 14:16:45,2023-11-22 14:16:48,3.466s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 14:16:45,2023-11-22 14:16:47,1.702s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-22 14:16:47,2023-11-22 14:16:48,1.542s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish""))",Chrome 119.0.0.0,,,2023-11-22 14:16:48,2023-11-22 14:16:48,0.203s,FAILED
