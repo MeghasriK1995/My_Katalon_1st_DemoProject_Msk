@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My_2nd_TestSuite,Chrome 119.0.0.0,,,2023-11-22 12:32:51,2023-11-22 12:34:43,1m - 52.120s,PASSED
+,,,,,,,
+Test Cases/JPetStore/My_2nd_Testcase_Msk,Chrome 119.0.0.0,,,2023-11-22 12:32:51,2023-11-22 12:34:10,1m - 18.325s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 12:32:52,2023-11-22 12:32:54,2.327s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-22 12:32:54,2023-11-22 12:32:59,5.200s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs""))",Chrome 119.0.0.0,,,2023-11-22 12:32:59,2023-11-22 12:33:01,1.770s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01""))",Chrome 119.0.0.0,,,2023-11-22 12:33:01,2023-11-22 12:33:02,1.084s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01""))",Chrome 119.0.0.0,,,2023-11-22 12:33:02,2023-11-22 12:33:04,2.309s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart""))",Chrome 119.0.0.0,,,2023-11-22 12:33:04,2023-11-22 12:33:40,35.139s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart""))",Chrome 119.0.0.0,,,2023-11-22 12:33:40,2023-11-22 12:33:42,2.475s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout""))",Chrome 119.0.0.0,,,2023-11-22 12:33:42,2023-11-22 12:33:45,3.094s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 12:33:45,2023-11-22 12:33:47,1.807s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:33:47,2023-11-22 12:33:51,3.769s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:33:51,2023-11-22 12:34:00,8.950s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:00,2023-11-22 12:34:01,1.445s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:01,2023-11-22 12:34:02,1.295s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip""), ""1566"")",Chrome 119.0.0.0,,,2023-11-22 12:34:02,2023-11-22 12:34:03,1.012s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:03,2023-11-22 12:34:04,1.061s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Confirm""))",Chrome 119.0.0.0,,,2023-11-22 12:34:04,2023-11-22 12:34:09,4.498s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 12:34:09,2023-11-22 12:34:10,0.732s,PASSED
+,,,,,,,
+Test Cases/JPetStore/My_1st_TestCase_Msk,Chrome 119.0.0.0,,,2023-11-22 12:34:10,2023-11-22 12:34:43,33.516s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-22 12:34:11,2023-11-22 12:34:12,1.245s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-22 12:34:12,2023-11-22 12:34:16,3.905s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish""))",Chrome 119.0.0.0,,,2023-11-22 12:34:16,2023-11-22 12:34:17,1.494s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 119.0.0.0,,,2023-11-22 12:34:17,2023-11-22 12:34:18,1.042s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart""))",Chrome 119.0.0.0,,,2023-11-22 12:34:18,2023-11-22 12:34:22,3.291s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1""), ""2"")",Chrome 119.0.0.0,,,2023-11-22 12:34:22,2023-11-22 12:34:22,0.841s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart""))",Chrome 119.0.0.0,,,2023-11-22 12:34:22,2023-11-22 12:34:25,2.657s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 119.0.0.0,,,2023-11-22 12:34:25,2023-11-22 12:34:26,1.440s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login""))",Chrome 119.0.0.0,,,2023-11-22 12:34:26,2023-11-22 12:34:30,3.889s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:30,2023-11-22 12:34:32,1.725s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79""))",Chrome 119.0.0.0,,,2023-11-22 12:34:32,2023-11-22 12:34:33,0.506s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip""), ""12356"")",Chrome 119.0.0.0,,,2023-11-22 12:34:33,2023-11-22 12:34:33,0.777s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:33,2023-11-22 12:34:35,1.842s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:35,2023-11-22 12:34:37,1.447s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip""), ""1256"")",Chrome 119.0.0.0,,,2023-11-22 12:34:37,2023-11-22 12:34:38,0.905s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-22 12:34:38,2023-11-22 12:34:38,0.882s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm""))",Chrome 119.0.0.0,,,2023-11-22 12:34:38,2023-11-22 12:34:43,4.098s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-22 12:34:43,2023-11-22 12:34:43,0.664s,PASSED

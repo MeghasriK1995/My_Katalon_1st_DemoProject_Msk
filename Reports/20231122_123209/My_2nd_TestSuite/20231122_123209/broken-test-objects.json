@@ -8,7 +8,7 @@
       "proposedLocator": "//a[contains(text(),\u0027Add to Cart\u0027)]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart_link.png"
+      "pathToScreenshot": "Reports/20231122_123209/My_2nd_TestSuite/20231122_123209/Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart_link.png"
     }
   ]
 }
