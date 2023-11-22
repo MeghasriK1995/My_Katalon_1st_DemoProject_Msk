@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My_1st_Testsuite_Msk" time="25.825" tests="1" failures="0" errors="0">
+   <testsuite name="My_1st_Testsuite_Msk" tests="1" failures="0" errors="0" time="25.825" skipped="0" timestamp="2023-11-22 10:12:33" hostname="ADMIN - MeghasriK" id="Test Suites/My_1st_Testsuite_Msk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231122_101221\\My_1st_Testsuite_Msk\\20231122_101222"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231122_101221\\My_1st_Testsuite_Msk\\20231122_101222\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - MeghasriK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="5c941a0a82291d1b61f1f81926aec5fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/My_1st_TestCase_Msk" time="25.446" classname="Test Cases/My_1st_TestCase_Msk" status="PASSED">
+         <system-out><![CDATA[2023-11-22 10:12:33 - [TEST_CASE][PASSED] - Test Cases/My_1st_TestCase_Msk: Test Cases/My_1st_TestCase_Msk
+
+2023-11-22 10:12:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-22 10:12:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-22 10:12:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-22 10:12:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-22 10:12:36 - [TEST_STEP][PASSED] - navigateToUrl("https://jpetstore.aspectran.com/catalog/"): Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-22 10:12:42 - [MESSAGE][PASSED] - Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-22 10:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-22 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-22 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-22 10:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-22 10:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-22 10:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-22 10:12:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1"), "2"): Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-22 10:12:46 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-22 10:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-22 10:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-22 10:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-22 10:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-22 10:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-22 10:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-22 10:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' is clicked on
+
+2023-11-22 10:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' is clicked on
+
+2023-11-22 10:12:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip"), "12356"): Text '12356' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip'
+
+2023-11-22 10:12:53 - [MESSAGE][PASSED] - Text '12356' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_billZip'
+
+2023-11-22 10:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip"), "1256"): Text '1256' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip'
+
+2023-11-22 10:12:56 - [MESSAGE][PASSED] - Text '1256' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Zip_shipZip'
+
+2023-11-22 10:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-22 10:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm' is clicked on
+
+2023-11-22 10:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Confirm' is clicked on
+
+2023-11-22 10:12:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-22 10:12:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-22 10:12:33 - [TEST_SUITE][PASSED] - My_1st_Testsuite_Msk: Test Cases/My_1st_TestCase_Msk]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
