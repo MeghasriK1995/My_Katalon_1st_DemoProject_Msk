@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Msk.11,Chrome 119.0.0.0,,,2023-11-28 12:02:27,2023-11-28 12:02:39,12.286s,PASSED
+,,,,,,,
+Test Cases/Mskreddy.1,Chrome 119.0.0.0,,,2023-11-28 12:02:27,2023-11-28 12:02:39,12.076s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 12:02:27,2023-11-28 12:02:29,2.014s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-28 12:02:29,2023-11-28 12:02:32,2.832s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment (2)""))",Chrome 119.0.0.0,,,2023-11-28 12:02:32,2023-11-28 12:02:33,0.826s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username (2)""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-28 12:02:33,2023-11-28 12:02:34,0.817s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password (2)""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2023-11-28 12:02:34,2023-11-28 12:02:34,0.464s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login (2)""))",Chrome 119.0.0.0,,,2023-11-28 12:02:34,2023-11-28 12:02:35,0.891s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 119.0.0.0,,,2023-11-28 12:02:35,2023-11-28 12:02:36,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_30 (2)""))",Chrome 119.0.0.0,,,2023-11-28 12:02:36,2023-11-28 12:02:36,0.502s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment (2)""), ""12565"")",Chrome 119.0.0.0,,,2023-11-28 12:02:36,2023-11-28 12:02:37,0.815s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment (2)""))",Chrome 119.0.0.0,,,2023-11-28 12:02:37,2023-11-28 12:02:38,0.684s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage (2)""))",Chrome 119.0.0.0,,,2023-11-28 12:02:38,2023-11-28 12:02:38,0.846s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 12:02:38,2023-11-28 12:02:39,0.625s,PASSED
