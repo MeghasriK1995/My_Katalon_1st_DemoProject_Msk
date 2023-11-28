@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Katlon_demo_Application,Chrome 119.0.0.0,,,2023-11-28 08:35:34,2023-11-28 08:36:09,34.883s,PASSED
+,,,,,,,
+Test Cases/katlon_demo_/katlon_demo_application,Chrome 119.0.0.0,,,2023-11-28 08:35:35,2023-11-28 08:35:48,13.580s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 08:35:35,2023-11-28 08:35:37,2.456s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-28 08:35:37,2023-11-28 08:35:40,3.002s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 119.0.0.0,,,2023-11-28 08:35:40,2023-11-28 08:35:41,0.812s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 119.0.0.0,,,2023-11-28 08:35:41,2023-11-28 08:35:42,0.490s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-28 08:35:42,2023-11-28 08:35:42,0.736s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 119.0.0.0,,,2023-11-28 08:35:42,2023-11-28 08:35:43,0.383s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2023-11-28 08:35:43,2023-11-28 08:35:43,0.445s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2023-11-28 08:35:43,2023-11-28 08:35:44,0.927s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 119.0.0.0,,,2023-11-28 08:35:44,2023-11-28 08:35:45,0.638s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_23""))",Chrome 119.0.0.0,,,2023-11-28 08:35:45,2023-11-28 08:35:45,0.509s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""megha"")",Chrome 119.0.0.0,,,2023-11-28 08:35:45,2023-11-28 08:35:46,0.839s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-28 08:35:46,2023-11-28 08:35:47,0.639s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 119.0.0.0,,,2023-11-28 08:35:47,2023-11-28 08:35:47,0.788s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 08:35:47,2023-11-28 08:35:48,0.622s,PASSED
+,,,,,,,
+Test Cases/JPetStore/My 3rd Test Case,Chrome 119.0.0.0,,,2023-11-28 08:35:48,2023-11-28 08:36:09,21.050s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 08:35:48,2023-11-28 08:35:50,1.187s,PASSED
+"navigateToUrl(""https://www.advantageonlineshopping.com/#/"")",Chrome 119.0.0.0,,,2023-11-28 08:35:50,2023-11-28 08:35:53,3.817s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 119.0.0.0,,,2023-11-28 08:35:53,2023-11-28 08:35:58,4.542s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_BUY NOW""))",Chrome 119.0.0.0,,,2023-11-28 08:35:58,2023-11-28 08:36:03,4.619s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/span_Color_rabbit""))",Chrome 119.0.0.0,,,2023-11-28 08:36:03,2023-11-28 08:36:05,2.801s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 119.0.0.0,,,2023-11-28 08:36:05,2023-11-28 08:36:06,0.558s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-28 08:36:06,2023-11-28 08:36:06,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-28 08:36:06,2023-11-28 08:36:07,0.817s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-28 08:36:07,2023-11-28 08:36:08,0.362s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-28 08:36:08,2023-11-28 08:36:08,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-28 08:36:08,2023-11-28 08:36:09,0.399s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 08:36:09,2023-11-28 08:36:09,0.655s,PASSED

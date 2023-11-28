@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My_1st_Testsuite_Msk,Chrome 119.0.0.0,,,2023-11-28 09:32:03,2023-11-28 09:35:41,3m - 38.572s,FAILED
+,,,,,,,
+Test Cases/JPetStore/My_1st_TestCase_Msk,Chrome 119.0.0.0,,,2023-11-28 09:34:46,2023-11-28 09:35:41,55.435s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 09:34:46,2023-11-28 09:34:48,1.871s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-28 09:34:48,2023-11-28 09:34:54,6.294s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish""))",Chrome 119.0.0.0,,,2023-11-28 09:34:54,2023-11-28 09:34:55,1.026s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 119.0.0.0,,,2023-11-28 09:34:55,2023-11-28 09:34:56,1.142s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart""))",Chrome 119.0.0.0,,,2023-11-28 09:34:56,2023-11-28 09:34:58,1.537s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1""), ""2"")",Chrome 119.0.0.0,,,2023-11-28 09:34:58,2023-11-28 09:34:59,0.795s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart""))",Chrome 119.0.0.0,,,2023-11-28 09:34:59,2023-11-28 09:35:00,1.628s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 119.0.0.0,,,2023-11-28 09:35:00,2023-11-28 09:35:02,1.602s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login""))",Chrome 119.0.0.0,,,2023-11-28 09:35:02,2023-11-28 09:35:05,3.520s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-28 09:35:05,2023-11-28 09:35:06,1.032s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79""))",Chrome 119.0.0.0,,,2023-11-28 09:35:06,2023-11-28 09:35:41,34.984s,FAILED

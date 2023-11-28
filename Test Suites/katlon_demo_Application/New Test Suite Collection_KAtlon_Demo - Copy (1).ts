@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/katlon_demo_Application/Test_Suite_Katlon_demo_Application - Copy (2)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/My 3rd Test Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/katlon_demo_Application/Test_Suite_Katlon_demo_Application - Copy (4)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/katlon_demo_Application/Test_Suite_Katlon_demo_Application - Copy (2)</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

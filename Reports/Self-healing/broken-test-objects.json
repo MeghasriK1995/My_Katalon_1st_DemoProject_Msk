@@ -9,6 +9,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/span_Color_rabbit",
+      "brokenLocator": "(//span[@id\u003d\u0027rabbit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//span[@id\u003d\u0027rabbit\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Advantage Shopping/span_Color_rabbit_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/button_BUY NOW",
+      "brokenLocator": "//button[@name\u003d\u0027buy_now\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Colorful style meets serious sound\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Advantage Shopping/button_BUY NOW_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/span_Color_rabbit",
+      "brokenLocator": "(//span[@id\u003d\u0027rabbit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SOLD OUT\u0027])[2]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/button_BUY NOW",
+      "brokenLocator": "//button[@name\u003d\u0027buy_now\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@name\u003d\u0027buy_now\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Advantage Shopping/button_BUY NOW_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Country:\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027aspectran.com\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue_neighbor.png"
     }
   ]
 }

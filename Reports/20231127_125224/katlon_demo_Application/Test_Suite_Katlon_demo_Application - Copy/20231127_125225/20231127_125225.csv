@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Katlon_demo_Application - Copy,Chrome 119.0.0.0,,,2023-11-27 12:52:36,2023-11-27 12:53:01,25.052s,PASSED
+,,,,,,,
+Test Cases/katlon_demo_/katlon_demo_application,Chrome 119.0.0.0,,,2023-11-27 12:52:37,2023-11-27 12:52:50,12.975s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 12:52:37,2023-11-27 12:52:39,2.027s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-27 12:52:39,2023-11-27 12:52:42,2.920s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 119.0.0.0,,,2023-11-27 12:52:42,2023-11-27 12:52:43,0.786s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 119.0.0.0,,,2023-11-27 12:52:43,2023-11-27 12:52:43,0.503s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-27 12:52:43,2023-11-27 12:52:44,0.697s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 119.0.0.0,,,2023-11-27 12:52:44,2023-11-27 12:52:44,0.353s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2023-11-27 12:52:44,2023-11-27 12:52:45,0.442s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2023-11-27 12:52:45,2023-11-27 12:52:46,1.019s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 119.0.0.0,,,2023-11-27 12:52:46,2023-11-27 12:52:46,0.614s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_23""))",Chrome 119.0.0.0,,,2023-11-27 12:52:46,2023-11-27 12:52:47,0.493s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""megha"")",Chrome 119.0.0.0,,,2023-11-27 12:52:47,2023-11-27 12:52:48,0.761s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-27 12:52:48,2023-11-27 12:52:48,0.651s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 119.0.0.0,,,2023-11-27 12:52:48,2023-11-27 12:52:49,0.789s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-27 12:52:49,2023-11-27 12:52:50,0.627s,PASSED
+,,,,,,,
+Test Cases/katlon_demo_/katlon_demo_application1,Chrome 119.0.0.0,,,2023-11-27 12:52:50,2023-11-27 12:53:01,11.861s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 12:52:50,2023-11-27 12:52:51,1.186s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-27 12:52:51,2023-11-27 12:52:54,2.939s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 119.0.0.0,,,2023-11-27 12:52:54,2023-11-27 12:52:55,0.831s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 119.0.0.0,,,2023-11-27 12:52:55,2023-11-27 12:52:55,0.428s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 119.0.0.0,,,2023-11-27 12:52:55,2023-11-27 12:52:56,0.716s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 119.0.0.0,,,2023-11-27 12:52:56,2023-11-27 12:52:56,0.346s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2023-11-27 12:52:56,2023-11-27 12:52:57,0.396s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2023-11-27 12:52:57,2023-11-27 12:52:58,1.014s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""inceare"")",Chrome 119.0.0.0,,,2023-11-27 12:52:58,2023-11-27 12:52:58,0.801s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-27 12:52:58,2023-11-27 12:52:59,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_16""))",Chrome 119.0.0.0,,,2023-11-27 12:52:59,2023-11-27 12:52:59,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2023-11-27 12:52:59,2023-11-27 12:53:00,0.768s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 119.0.0.0,,,2023-11-27 12:53:00,2023-11-27 12:53:01,0.703s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-27 12:53:01,2023-11-27 12:53:01,0.597s,PASSED

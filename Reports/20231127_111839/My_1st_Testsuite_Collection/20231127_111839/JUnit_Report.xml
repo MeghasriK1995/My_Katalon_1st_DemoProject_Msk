@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My_1st_Testsuite_Collection" time="1151.919" tests="4" failures="3" errors="0">
+   <testsuite name="My_1st_Testsuite_Msk" tests="1" failures="1" errors="0" time="208.085" skipped="0" timestamp="2023-11-27 11:18:53" hostname="ADMIN - MeghasriK" id="Test Suites/My_1st_Testsuite_Msk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840\\1701064182662.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840\\1701064244603.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840\\1701064294109.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840\\1701064341555.png"/>
+         <property name="hostName" value="ADMIN - MeghasriK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="b9424ed58416838b6d09c9fa9bf0edda"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/JPetStore/My_1st_TestCase_Msk" time="47.436" classname="Test Cases/JPetStore/My_1st_TestCase_Msk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-11-27 11:21:34 - [TEST_CASE][FAILED] - Test Cases/JPetStore/My_1st_TestCase_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-11-27 11:21:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-27 11:21:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-27 11:21:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-27 11:21:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-27 11:21:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-27 11:21:35 - [TEST_STEP][PASSED] - navigateToUrl("https://jpetstore.aspectran.com/catalog/"): Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-27 11:21:39 - [MESSAGE][PASSED] - Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-27 11:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-27 11:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-27 11:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-27 11:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-27 11:21:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-27 11:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-27 11:21:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1"), "2"): Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-27 11:21:42 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-27 11:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-27 11:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-27 11:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-27 11:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-27 11:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-27 11:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-27 11:21:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-27 11:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-27 11:21:47 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79")): Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1700627587743.run(Script1700627587743.groovy:40)
+	... 16 more
+)
+
+2023-11-27 11:22:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='shippingAddressRequired']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:22:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'. Try using Self-healing.
+
+2023-11-27 11:22:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@name='shippingAddressRequired']'.
+
+2023-11-27 11:22:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='CenterForm']/form/table[2]/tbody/tr[9]/td[2]/input'.
+
+2023-11-27 11:22:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[9]/td[2]/input'.
+
+2023-11-27 11:22:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'checkbox' and @name = 'shippingAddressRequired']'.
+
+2023-11-27 11:22:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'checkbox' and @name = 'shippingAddressRequired']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:22:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: input[name="shippingAddressRequired"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:22:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1700627587743.run(Script1700627587743.groovy:40)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_1st_Testsuite_Msk\\20231127_111840\\1701064341555.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-27 11:21:34 - [TEST_CASE][FAILED] - Test Cases/JPetStore/My_1st_TestCase_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 11:18:53 - [TEST_SUITE][FAILED] - My_1st_Testsuite_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-11-27 11:18:53 - [TEST_SUITE][FAILED] - My_1st_Testsuite_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064120461.run(TempTestSuite1701064120461.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+   <testsuite name="My 3rd Test Suite" tests="1" failures="0" errors="0" time="21.698" skipped="0" timestamp="2023-11-27 11:22:41" hostname="ADMIN - MeghasriK" id="Test Suites/My 3rd Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My 3rd Test Suite\\20231127_111842"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My 3rd Test Suite\\20231127_111842\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADMIN - MeghasriK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="8bbdef3e31c1284b80a4516f44355ab5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/JPetStore/My 3rd Test Case" time="21.448" classname="Test Cases/JPetStore/My 3rd Test Case" status="PASSED">
+         <system-out><![CDATA[2023-11-27 11:22:41 - [TEST_CASE][PASSED] - Test Cases/JPetStore/My 3rd Test Case: Test Cases/JPetStore/My 3rd Test Case
+
+2023-11-27 11:22:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-27 11:22:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-27 11:22:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-27 11:22:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-27 11:22:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.advantageonlineshopping.com/#/"): Navigate to 'https://www.advantageonlineshopping.com/#/' successfully
+
+2023-11-27 11:22:47 - [MESSAGE][PASSED] - Navigate to 'https://www.advantageonlineshopping.com/#/' successfully
+
+2023-11-27 11:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/div_SPEAKERS                        Shop Now")): Object: 'Object Repository/Page_Advantage Shopping/div_SPEAKERS                        Shop Now' is clicked on
+
+2023-11-27 11:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/div_SPEAKERS                        Shop Now' is clicked on
+
+2023-11-27 11:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_BUY NOW")): Object: 'Object Repository/Page_Advantage Shopping/button_BUY NOW' is clicked on
+
+2023-11-27 11:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_BUY NOW' is clicked on
+
+2023-11-27 11:22:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/span_Color_rabbit")): Object: 'Object Repository/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+2023-11-27 11:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+2023-11-27 11:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+2023-11-27 11:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+2023-11-27 11:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)")): Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)")): Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)")): Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:01 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)")): Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is right clicked on
+
+2023-11-27 11:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is right clicked on
+
+2023-11-27 11:23:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)")): Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)' is clicked on
+
+2023-11-27 11:23:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-27 11:23:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 11:22:41 - [TEST_SUITE][PASSED] - My 3rd Test Suite: Test Cases/JPetStore/My 3rd Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="My_2nd_TestSuite" tests="2" failures="2" errors="0" time="872.11" skipped="0" timestamp="2023-11-27 11:23:23" hostname="ADMIN - MeghasriK" id="Test Suites/My_2nd_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701064562781.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701064719852.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701064877838.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065037842.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065088388.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065175582.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065224897.png, C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065274980.png"/>
+         <property name="hostName" value="ADMIN - MeghasriK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="c4fb63b307f203a61957cdafd7d3de07"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/JPetStore/My_2nd_Testcase_Msk" time="160.003" classname="Test Cases/JPetStore/My_2nd_Testcase_Msk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-11-27 11:31:18 - [TEST_CASE][FAILED] - Test Cases/JPetStore/My_2nd_Testcase_Msk: Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-11-27 11:31:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-27 11:31:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-27 11:31:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-27 11:31:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-27 11:31:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-27 11:31:19 - [TEST_STEP][PASSED] - navigateToUrl("https://jpetstore.aspectran.com/catalog/"): Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-27 11:31:25 - [MESSAGE][PASSED] - Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-27 11:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs' is clicked on
+
+2023-11-27 11:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs' is clicked on
+
+2023-11-27 11:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01' is clicked on
+
+2023-11-27 11:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01' is clicked on
+
+2023-11-27 11:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01' is clicked on
+
+2023-11-27 11:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01' is clicked on
+
+2023-11-27 11:31:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart' is clicked on
+
+2023-11-27 11:32:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='Catalog']/table/tbody/tr[2]/td[5]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:32:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart'. Try using Self-healing.
+
+2023-11-27 11:32:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart' was broken. Propose an alternative one: '//a[contains(text(),'Add to Cart')]'.
+
+2023-11-27 11:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart' is clicked on
+
+2023-11-27 11:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart' is clicked on
+
+2023-11-27 11:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart' is clicked on
+
+2023-11-27 11:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout' is clicked on
+
+2023-11-27 11:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout' is clicked on
+
+2023-11-27 11:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login' is clicked on
+
+2023-11-27 11:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login' is clicked on
+
+2023-11-27 11:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:32:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='submit'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:32:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue'. Try using Self-healing.
+
+2023-11-27 11:32:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Country:'])[1]/following::button[1]'.
+
+2023-11-27 11:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:33:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='submit'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:33:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue'. Try using Self-healing.
+
+2023-11-27 11:33:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Country:'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:33:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='aspectran.com'])[1]/preceding::button[2]'.
+
+2023-11-27 11:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue' is clicked on
+
+2023-11-27 11:33:14 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip"), "1566"): Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1700636283661.run(Script1700636283661.groovy:46)
+	... 16 more
+)
+
+2023-11-27 11:33:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='billZip']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:33:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'. Try using Self-healing.
+
+2023-11-27 11:33:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@name='billZip']'.
+
+2023-11-27 11:33:49 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='CenterForm']/form/table[2]/tbody/tr[7]/td[2]/input'.
+
+2023-11-27 11:33:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[7]/td[2]/input'.
+
+2023-11-27 11:33:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'text' and @name = 'billZip']'.
+
+2023-11-27 11:33:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'billZip']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:33:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: input[name="billZip"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:33:58 - [MESSAGE][FAILED] - Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1700636283661.run(Script1700636283661.groovy:46)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065037842.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-27 11:31:18 - [TEST_CASE][FAILED] - Test Cases/JPetStore/My_2nd_Testcase_Msk: Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JPetStore/My_1st_TestCase_Msk" time="50.088" classname="Test Cases/JPetStore/My_1st_TestCase_Msk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-11-27 11:37:05 - [TEST_CASE][FAILED] - Test Cases/JPetStore/My_1st_TestCase_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-11-27 11:37:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-27 11:37:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-27 11:37:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-27 11:37:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-27 11:37:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-27 11:37:06 - [TEST_STEP][PASSED] - navigateToUrl("https://jpetstore.aspectran.com/catalog/"): Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-27 11:37:10 - [MESSAGE][PASSED] - Navigate to 'https://jpetstore.aspectran.com/catalog/' successfully
+
+2023-11-27 11:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-27 11:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish' is clicked on
+
+2023-11-27 11:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-27 11:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+2023-11-27 11:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-27 11:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+2023-11-27 11:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1"), "2"): Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-27 11:37:14 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1'
+
+2023-11-27 11:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-27 11:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart' is clicked on
+
+2023-11-27 11:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-27 11:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+2023-11-27 11:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-27 11:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login' is clicked on
+
+2023-11-27 11:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue")): Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-27 11:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue' is clicked on
+
+2023-11-27 11:37:20 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79")): Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1700627587743.run(Script1700627587743.groovy:40)
+	... 16 more
+)
+
+2023-11-27 11:37:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='shippingAddressRequired']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:37:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'. Try using Self-healing.
+
+2023-11-27 11:37:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@name='shippingAddressRequired']'.
+
+2023-11-27 11:37:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='CenterForm']/form/table[2]/tbody/tr[9]/td[2]/input'.
+
+2023-11-27 11:37:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[9]/td[2]/input'.
+
+2023-11-27 11:37:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@type = 'checkbox' and @name = 'shippingAddressRequired']'.
+
+2023-11-27 11:37:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'checkbox' and @name = 'shippingAddressRequired']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:37:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: input[name="shippingAddressRequired"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-27 11:37:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1700627587743.run(Script1700627587743.groovy:40)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\ADMIN\\git\\Katalon-to-Git\\My_Katalon_1st_DemoProject_Msk\\Reports\\20231127_111839\\My_2nd_TestSuite\\20231127_111844\\1701065274980.png]]]]></system-out>
+         <system-err><![CDATA[2023-11-27 11:37:05 - [TEST_CASE][FAILED] - Test Cases/JPetStore/My_1st_TestCase_Msk: Test Cases/JPetStore/My_1st_TestCase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at My_1st_TestCase_Msk.run(My_1st_TestCase_Msk:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79' located by '//input[@name='shippingAddressRequired']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 11:23:23 - [TEST_SUITE][FAILED] - My_2nd_TestSuite: Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-11-27 11:23:23 - [TEST_SUITE][FAILED] - My_2nd_TestSuite: Test Cases/JPetStore/My_2nd_Testcase_Msk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1566' of object 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at My_2nd_Testcase_Msk.run(My_2nd_Testcase_Msk:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701064124343.run(TempTestSuite1701064124343.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip' located by '//input[@name='billZip']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

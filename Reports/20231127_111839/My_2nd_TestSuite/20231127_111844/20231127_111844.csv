@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My_2nd_TestSuite,Chrome 119.0.0.0,,,2023-11-27 11:23:23,2023-11-27 11:37:55,14m - 32.110s,FAILED
+,,,,,,,
+Test Cases/JPetStore/My_2nd_Testcase_Msk,Chrome 119.0.0.0,,,2023-11-27 11:31:18,2023-11-27 11:33:58,2m - 40.003s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 11:31:18,2023-11-27 11:31:19,1.744s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-27 11:31:19,2023-11-27 11:31:25,5.440s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Dogs""))",Chrome 119.0.0.0,,,2023-11-27 11:31:25,2023-11-27 11:31:26,1.485s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/td_K9-BD-01""))",Chrome 119.0.0.0,,,2023-11-27 11:31:26,2023-11-27 11:31:27,0.982s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_K9-BD-01""))",Chrome 119.0.0.0,,,2023-11-27 11:31:27,2023-11-27 11:31:29,1.598s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Add to Cart""))",Chrome 119.0.0.0,,,2023-11-27 11:31:29,2023-11-27 11:32:02,33.074s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Update Cart""))",Chrome 119.0.0.0,,,2023-11-27 11:32:02,2023-11-27 11:32:03,1.509s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/a_Proceed to Checkout""))",Chrome 119.0.0.0,,,2023-11-27 11:32:03,2023-11-27 11:32:05,1.408s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Login""))",Chrome 119.0.0.0,,,2023-11-27 11:32:05,2023-11-27 11:32:06,1.643s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-27 11:32:06,2023-11-27 11:32:07,0.861s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-27 11:32:07,2023-11-27 11:32:09,1.273s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-27 11:32:09,2023-11-27 11:32:41,32.454s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/button_Continue""))",Chrome 119.0.0.0,,,2023-11-27 11:32:41,2023-11-27 11:33:14,32.807s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo (1)/input_Zip_billZip""), ""1566"")",Chrome 119.0.0.0,,,2023-11-27 11:33:14,2023-11-27 11:33:58,43.722s,FAILED
+,,,,,,,
+Test Cases/JPetStore/My_1st_TestCase_Msk,Chrome 119.0.0.0,,,2023-11-27 11:37:05,2023-11-27 11:37:55,50.088s,FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 11:37:05,2023-11-27 11:37:06,1.803s,PASSED
+"navigateToUrl(""https://jpetstore.aspectran.com/catalog/"")",Chrome 119.0.0.0,,,2023-11-27 11:37:06,2023-11-27 11:37:10,3.922s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Fish""))",Chrome 119.0.0.0,,,2023-11-27 11:37:10,2023-11-27 11:37:11,0.869s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 119.0.0.0,,,2023-11-27 11:37:11,2023-11-27 11:37:12,0.931s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Add to Cart""))",Chrome 119.0.0.0,,,2023-11-27 11:37:12,2023-11-27 11:37:13,1.429s,PASSED
+"setText(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_true_EST-1""), ""2"")",Chrome 119.0.0.0,,,2023-11-27 11:37:13,2023-11-27 11:37:14,0.965s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Update Cart""))",Chrome 119.0.0.0,,,2023-11-27 11:37:14,2023-11-27 11:37:16,1.277s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 119.0.0.0,,,2023-11-27 11:37:16,2023-11-27 11:37:17,1.369s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Login""))",Chrome 119.0.0.0,,,2023-11-27 11:37:17,2023-11-27 11:37:19,1.640s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/button_Continue""))",Chrome 119.0.0.0,,,2023-11-27 11:37:19,2023-11-27 11:37:20,0.909s,PASSED
+"click(findTestObject(""Object Repository/My_1st_OR_MSK/Page_JPetStore Demo/input_Ship to different address_shippingAdd_0f9b79""))",Chrome 119.0.0.0,,,2023-11-27 11:37:20,2023-11-27 11:37:55,34.967s,FAILED

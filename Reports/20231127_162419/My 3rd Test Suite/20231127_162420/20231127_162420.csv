@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My 3rd Test Suite,Chrome 119.0.0.0,,,2023-11-27 16:28:14,2023-11-27 16:28:58,43.916s,PASSED
+,,,,,,,
+Test Cases/JPetStore/My 3rd Test Case,Chrome 119.0.0.0,,,2023-11-27 16:28:14,2023-11-27 16:28:58,43.659s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-27 16:28:15,2023-11-27 16:28:17,2.298s,PASSED
+"navigateToUrl(""https://www.advantageonlineshopping.com/#/"")",Chrome 119.0.0.0,,,2023-11-27 16:28:17,2023-11-27 16:28:23,5.863s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/div_SPEAKERS                        Shop Now""))",Chrome 119.0.0.0,,,2023-11-27 16:28:23,2023-11-27 16:28:43,20.271s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_BUY NOW""))",Chrome 119.0.0.0,,,2023-11-27 16:28:43,2023-11-27 16:28:51,7.429s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/span_Color_rabbit""))",Chrome 119.0.0.0,,,2023-11-27 16:28:51,2023-11-27 16:28:53,2.647s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 119.0.0.0,,,2023-11-27 16:28:53,2023-11-27 16:28:54,0.669s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-27 16:28:54,2023-11-27 16:28:55,0.734s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-27 16:28:55,2023-11-27 16:28:55,0.885s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-27 16:28:55,2023-11-27 16:28:56,0.494s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-27 16:28:56,2023-11-27 16:28:57,0.662s,PASSED
+"click(findTestObject(""Object Repository/Page_Advantage Shopping/button_CHECKOUT  (200.00)""))",Chrome 119.0.0.0,,,2023-11-27 16:28:57,2023-11-27 16:28:57,0.596s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-27 16:28:57,2023-11-27 16:28:58,0.734s,PASSED

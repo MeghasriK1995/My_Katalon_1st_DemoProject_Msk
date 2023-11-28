@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/span_Color_rabbit",
+      "brokenLocator": "(//span[@id\u003d\u0027rabbit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//span[@id\u003d\u0027rabbit\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231123_151358/katlon_demo_Application/Test_Suite_Katlon_demo_Application/20231123_151359/Object Repository/Page_Advantage Shopping/span_Color_rabbit_attributes.png"
+    }
+  ]
+}
